@@ -1,6 +1,3 @@
-import Image from "next/image";
-
-
 export default function Home() {
   const videoEmbedUrls = [
     "https://www.youtube.com/embed/rcuuV0q7aI4?si=KgibChRX-i_OO_l0",
@@ -20,9 +17,14 @@ export default function Home() {
         <p className="text-lg sm:text-xl text-center">
           {introText}
         </p>
+        <div className="flex flex-col gap-[8px] m-auto">
         <p className="text-lg sm:text-xl text-center m-auto">
-          <a className="text-blue-500 underline" href="mailto:tomhunt.us@gmail.com">tomhunt.us@gmail.com</a>
+          <a className="text-blue-500 underline hover:text-blue-600" href="mailto:tomhunt.us@gmail.com">tomhunt.us@gmail.com</a>
         </p>
+        <p className="text-lg sm:text-xl text-center m-auto">
+          Socials: <a className="text-blue-500 hover:text-blue-600" href="https://www.instagram.com/scarecrowbar/" target="_blank">@scarecrowbar</a>
+        </p>
+        </div>
         <hr className="w-[75px] md:w-[100px] border-t-2 border-gray-300 m-auto" />
         {videoEmbedUrls.map((url, index) => (
           <div className="relative pb-[56.25%] w-full h-0" key={index}>
