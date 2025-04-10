@@ -6,6 +6,7 @@ export default function Home() {
     "https://www.youtube.com/embed/pAKa_EGhHRI?si=GvC4yjwsVugZi4Xr",
     "https://www.youtube.com/embed/Ocf5cC69hKU?si=tOoxspifx8T3wtCX",
     "https://www.youtube.com/embed/YbYtL0UWOCk?si=5zP5TVdN1CIyEvkZ",
+    "https://www.youtube.com/embed/85GSqYgMCUg?si=a0_3MxvpVOmfSYQq"
   ]
 
   const introText = "Hello! These are a series of sketches currently in development for a show called Complimentary TV. They are written, directed, produced, and edited by Tom Hunt. If you enjoy them, please make sure to let us know! Thanks for stopping by! "
@@ -39,7 +40,7 @@ export default function Home() {
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
        <p className="text-center">
-            We&apos;re making a few more sketches for the pilot, shoot me an email if you&apos;re looking for anything in particular. That&apos;s right, it&apos;s been me, Tom, the whole time, making this website. You caught me. Now what? Are you going to read me my rights?
+            
        </p>
       </footer>
     </div>
