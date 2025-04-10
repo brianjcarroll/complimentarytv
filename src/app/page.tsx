@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 export default function Home() {
@@ -38,10 +39,8 @@ export default function Home() {
         ))}
         
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-       <p className="text-center">
-            
-       </p>
+      <footer className="row-start-3 flex gap-[24px] flex-wrap">
+
       </footer>
     </div>
   );
