@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export default function Home() {
   const videoEmbedUrls = [
@@ -29,7 +29,6 @@ export default function Home() {
             className="absolute top-0 left-0 h-full w-full"
             src={url}
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
@@ -40,7 +39,7 @@ export default function Home() {
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
        <p className="text-center">
-            We're making a few more sketches for the pilot, shoot me an email if you're looking for anything in particular. That's right, it's been me, Tom, the whole time, making this website. You caught me. Now what? Are you going to read me my rights?
+            We&apos;re making a few more sketches for the pilot, shoot me an email if you&apos;re looking for anything in particular. That&apos;s right, it&apos;s been me, Tom, the whole time, making this website. You caught me. Now what? Are you going to read me my rights?
        </p>
       </footer>
     </div>
