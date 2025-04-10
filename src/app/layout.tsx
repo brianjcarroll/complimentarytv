@@ -19,6 +19,7 @@ const spaceMono = Space_Mono({
 
 const overpass = Overpass({
   variable: "--font-overpass",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
