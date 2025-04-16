@@ -7,7 +7,8 @@ export default function Home() {
     "https://www.youtube.com/embed/85GSqYgMCUg?si=a0_3MxvpVOmfSYQq"
   ]
 
-  const introText = "Hello! These are a series of sketches currently in development for a show called Complimentary TV. They are written, directed, produced, and edited by Tom Hunt. If you enjoy them, please make sure to let us know! Thanks for stopping by! "
+  const introText = ``
+
   return (
     <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-overpass)] max-w-4xl m-auto">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
@@ -15,7 +16,7 @@ export default function Home() {
           Complimentary TV
         </h1>
         <p className="text-lg sm:text-xl text-center">
-          {introText}
+          A Sketch Comedy Series currently in development that blends <span className="font-bold">BLACK MIRROR</span> with <span className="font-bold">I THINK YOU SHOULD LEAVE.</span> Written, directed, produced, and edited by <span className="font-bold">Tom Hunt</span>.
         </p>
         <div className="flex flex-col gap-[8px] m-auto">
         <p className="text-lg sm:text-xl text-center m-auto">
