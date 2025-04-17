@@ -14,7 +14,7 @@ export default function Home() {
           Complimentary TV
         </h1>
         <p className="text-lg sm:text-xl text-center">
-          A Sketch Comedy Series currently in development that blends <span className="font-bold">BLACK MIRROR</span> with <span className="font-bold">I THINK YOU SHOULD LEAVE.</span> Written, directed, produced, and edited by <span className="font-bold">Tom Hunt</span>.
+          A Sketch Comedy Series currently in development that blends <span className="font-bold">Black Mirror</span> with <span className="font-bold">I Think You Should Leave.</span> Written, directed, produced, and edited by <span className="font-bold">Tom Hunt</span>.
         </p>
         <div className="flex flex-col gap-[8px] m-auto">
         <p className="text-lg sm:text-xl text-center m-auto">
