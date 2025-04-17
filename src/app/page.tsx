@@ -7,8 +7,6 @@ export default function Home() {
     "https://www.youtube.com/embed/85GSqYgMCUg?si=a0_3MxvpVOmfSYQq"
   ]
 
-  const introText = ``
-
   return (
     <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-overpass)] max-w-4xl m-auto">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
