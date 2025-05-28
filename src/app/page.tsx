@@ -2,8 +2,8 @@ export default function Home() {
   const videoEmbedUrls = [
     "https://www.youtube.com/embed/rcuuV0q7aI4?si=KgibChRX-i_OO_l0",
     "https://www.youtube.com/embed/Zuuu2rKd0i8?si=VCMEx_GQbXFKejgQ",
-    "https://www.youtube.com/embed/FQU9DEpONkM?si=w9OFLRVlBVg_5sdT",
     "https://www.youtube.com/embed/YbYtL0UWOCk?si=5zP5TVdN1CIyEvkZ",
+    "https://www.youtube.com/embed/FQU9DEpONkM?si=w9OFLRVlBVg_5sdT",
   ]
 
   return (
