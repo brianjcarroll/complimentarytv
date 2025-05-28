@@ -4,7 +4,6 @@ export default function Home() {
     "https://www.youtube.com/embed/Zuuu2rKd0i8?si=VCMEx_GQbXFKejgQ",
     "https://www.youtube.com/embed/FQU9DEpONkM?si=w9OFLRVlBVg_5sdT",
     "https://www.youtube.com/embed/YbYtL0UWOCk?si=5zP5TVdN1CIyEvkZ",
-    "
   ]
 
   return (
