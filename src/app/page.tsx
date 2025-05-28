@@ -1,10 +1,10 @@
 export default function Home() {
   const videoEmbedUrls = [
     "https://www.youtube.com/embed/rcuuV0q7aI4?si=KgibChRX-i_OO_l0",
-    "https://www.youtube.com/embed/pAKa_EGhHRI?si=GvC4yjwsVugZi4Xr",
-    "https://www.youtube.com/embed/Ocf5cC69hKU?si=tOoxspifx8T3wtCX",
+    "https://www.youtube.com/embed/Zuuu2rKd0i8?si=VCMEx_GQbXFKejgQ",
+    "https://www.youtube.com/embed/FQU9DEpONkM?si=w9OFLRVlBVg_5sdT",
     "https://www.youtube.com/embed/YbYtL0UWOCk?si=5zP5TVdN1CIyEvkZ",
-    "https://www.youtube.com/embed/85GSqYgMCUg?si=a0_3MxvpVOmfSYQq"
+    "
   ]
 
   return (
