@@ -19,9 +19,14 @@ export default function Home() {
         <p className="text-lg sm:text-xl text-center m-auto">
           <a className="text-blue-500 underline hover:text-blue-600" href="mailto:tomhunt.us@gmail.com">tomhunt.us@gmail.com</a>
         </p>
-        <p className="text-lg sm:text-xl text-center m-auto">
-          Socials: <a className="text-blue-500 hover:text-blue-600" href="https://www.instagram.com/scarecrowbar/" target="_blank">@scarecrowbar</a>
-        </p>
+        </div>
+        <div className="m-auto">
+          <a 
+            href="/pitch-deck"
+            className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors font-bold"
+          >
+            View Pitch Deck
+          </a>
         </div>
         <hr className="w-[75px] md:w-[100px] border-t-2 border-gray-300 m-auto" />
         {videoEmbedUrls.map((url, index) => (
