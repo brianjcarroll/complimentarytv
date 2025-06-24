@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PitchDeck() {
   const pitchDeckImages = [
     "https://placehold.co/1200x675/e5e7eb/374151?text=Slide+1+-+Title&font=lato",
@@ -14,12 +16,12 @@ export default function PitchDeck() {
       <main className="flex flex-col gap-[48px] row-start-2 items-center w-full">
         <div className="text-center">
           <div className="mb-4">
-            <a 
+            <Link 
               href="/"
               className="inline-block text-blue-500 hover:text-blue-600 underline text-lg"
             >
               ← Back to Episodes
-            </a>
+            </Link>
           </div>
           <h1 className="text-4xl sm:text-6xl font-bold text-center m-auto font-[family-name:var(--font-space-mono)] mb-4">
             Complimentary TV
@@ -44,12 +46,12 @@ export default function PitchDeck() {
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 items-center">
-          <a 
+          <Link 
             href="/"
             className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors font-bold"
           >
             Watch Episodes
-          </a>
+          </Link>
           <a 
             href="mailto:tomhunt.us@gmail.com"
             className="inline-block bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors font-bold"

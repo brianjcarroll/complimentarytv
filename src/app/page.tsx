@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   const videoEmbedUrls = [
     "https://www.youtube.com/embed/rcuuV0q7aI4?si=KgibChRX-i_OO_l0",
@@ -21,12 +23,12 @@ export default function Home() {
         </p>
         </div>
         <div className="m-auto">
-          <a 
+          <Link 
             href="/pitch-deck"
             className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors font-bold"
           >
             View Pitch Deck
-          </a>
+          </Link>
         </div>
         <hr className="w-[75px] md:w-[100px] border-t-2 border-gray-300 m-auto" />
         {videoEmbedUrls.map((url, index) => (
