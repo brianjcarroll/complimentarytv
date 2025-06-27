@@ -13,7 +13,6 @@ export default function PitchDeck() {
     "https://i.imgur.com/kedOwnG.png",
     "https://i.imgur.com/QdrFpwO.png",
     "https://i.imgur.com/JdAgWl2.png",
-    "https://i.imgur.com/JdAgWl2.png",
     "https://i.imgur.com/7BRgCQw.png",
     "https://i.imgur.com/jmBnJXd.png",
     "https://i.imgur.com/UUNqvYg.png"
