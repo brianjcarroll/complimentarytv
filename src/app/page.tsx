@@ -27,7 +27,7 @@ export default function Home() {
             href="/pitch-deck"
             className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors font-bold"
           >
-            View Pitch Deck
+            Pitch Deck
           </Link>
         </div>
         <hr className="w-[75px] md:w-[100px] border-t-2 border-gray-300 m-auto" />
