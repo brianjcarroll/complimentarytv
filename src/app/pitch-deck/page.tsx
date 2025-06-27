@@ -3,12 +3,20 @@ import Link from "next/link";
 export default function PitchDeck() {
   const pitchDeckImages = [
     "https://i.imgur.com/R3UY4qW.png",
-    "https://placehold.co/1200x675/f3f4f6/374151?text=Slide+2+-+Concept&font=lato",
-    "https://placehold.co/1200x675/e5e7eb/374151?text=Slide+3+-+Creator&font=lato",
-    "https://placehold.co/1200x675/f3f4f6/374151?text=Slide+4+-+Target+Audience&font=lato",
-    "https://placehold.co/1200x675/e5e7eb/374151?text=Slide+5+-+Format&font=lato",
-    "https://placehold.co/1200x675/f3f4f6/374151?text=Slide+6+-+Current+Content&font=lato",
-    "https://placehold.co/1200x675/e5e7eb/374151?text=Slide+7+-+Partnership&font=lato"
+    "https://i.imgur.com/QLllGUe.png",
+    "https://i.imgur.com/vRcNBhZ.png",
+    "https://i.imgur.com/SNhtYWd.png",
+    "https://i.imgur.com/IPeGZS2.png",
+    "https://i.imgur.com/CPIcnf0.png",
+    "https://i.imgur.com/yqOfr8r.png",
+    "https://i.imgur.com/0VE2tQN.png",
+    "https://i.imgur.com/kedOwnG.png",
+    "https://i.imgur.com/QdrFpwO.png",
+    "https://i.imgur.com/JdAgWl2.png",
+    "https://i.imgur.com/JdAgWl2.png",
+    "https://i.imgur.com/7BRgCQw.png",
+    "https://i.imgur.com/jmBnJXd.png",
+    "https://i.imgur.com/UUNqvYg.png"
   ];
 
   return (
