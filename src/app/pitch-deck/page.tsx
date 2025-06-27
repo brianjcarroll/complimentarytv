@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function PitchDeck() {
   const pitchDeckImages = [
-    "https://placehold.co/1200x675/e5e7eb/374151?text=Slide+1+-+Title&font=lato",
+    "https://drive.google.com/file/d/1gtqgMBhhimsJH94JfPiPr1x87TKrjv_p/view?usp=sharing",
     "https://placehold.co/1200x675/f3f4f6/374151?text=Slide+2+-+Concept&font=lato",
     "https://placehold.co/1200x675/e5e7eb/374151?text=Slide+3+-+Creator&font=lato",
     "https://placehold.co/1200x675/f3f4f6/374151?text=Slide+4+-+Target+Audience&font=lato",
